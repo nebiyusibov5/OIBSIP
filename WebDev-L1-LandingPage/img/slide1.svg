@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6EE9EE"/>
+      <stop offset="100%" stop-color="#2FD1D9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg1)"/>
+
+  <!-- dot pattern bottom-left -->
+  <g fill="#1BB9C2" opacity="0.55">
+    <g id="dotrow"></g>
+  </g>
+  <g fill="#17A7AF" opacity="0.5">
+    <circle cx="40" cy="470" r="5"/><circle cx="70" cy="470" r="5"/><circle cx="100" cy="470" r="5"/><circle cx="130" cy="470" r="5"/><circle cx="160" cy="470" r="5"/><circle cx="190" cy="470" r="5"/><circle cx="220" cy="470" r="5"/><circle cx="250" cy="470" r="5"/><circle cx="280" cy="470" r="5"/><circle cx="310" cy="470" r="5"/>
+    <circle cx="55" cy="445" r="5"/><circle cx="85" cy="445" r="5"/><circle cx="115" cy="445" r="5"/><circle cx="145" cy="445" r="5"/><circle cx="175" cy="445" r="5"/><circle cx="205" cy="445" r="5"/><circle cx="235" cy="445" r="5"/><circle cx="265" cy="445" r="5"/><circle cx="295" cy="445" r="5"/>
+    <circle cx="70" cy="420" r="5"/><circle cx="100" cy="420" r="5"/><circle cx="130" cy="420" r="5"/><circle cx="160" cy="420" r="5"/><circle cx="190" cy="420" r="5"/><circle cx="220" cy="420" r="5"/><circle cx="250" cy="420" r="5"/><circle cx="280" cy="420" r="5"/>
+    <circle cx="90" cy="395" r="5"/><circle cx="120" cy="395" r="5"/><circle cx="150" cy="395" r="5"/><circle cx="180" cy="395" r="5"/><circle cx="210" cy="395" r="5"/><circle cx="240" cy="395" r="5"/>
+  </g>
+
+  <!-- clouds -->
+  <g fill="#ffffff" opacity="0.35">
+    <ellipse cx="900" cy="90" rx="90" ry="26"/>
+    <ellipse cx="980" cy="70" rx="70" ry="22"/>
+    <ellipse cx="1050" cy="120" rx="80" ry="24"/>
+    <ellipse cx="780" cy="150" rx="60" ry="18"/>
+  </g>
+
+  <!-- giant "5" -->
+  <text x="850" y="400" font-family="Arial, sans-serif" font-size="420" font-weight="900" fill="#E4231C" text-anchor="middle" opacity="0.95">5</text>
+
+  <!-- plane -->
+  <g transform="translate(760,250) rotate(-18)">
+    <path d="M0,0 L220,-18 L260,-8 L230,4 L120,10 L40,30 L10,26 L30,4 Z" fill="#E8ECEF" stroke="#B9C2C7" stroke-width="2"/>
+    <path d="M40,10 L60,-40 L80,-38 L70,8 Z" fill="#B9C2C7"/>
+    <path d="M100,20 L80,55 L98,55 L120,22 Z" fill="#B9C2C7"/>
+  </g>
+
+  <!-- text -->
+  <text x="60" y="200" font-family="Arial, sans-serif" font-size="56" font-weight="400" fill="#FFFFFF">5 times a week</text>
+  <text x="60" y="280" font-family="Arial, sans-serif" font-size="64" font-weight="800" fill="#0E2A2D">delivery from</text>
+  <text x="60" y="360" font-family="Arial, sans-serif" font-size="64" font-weight="800" fill="#0E2A2D">Turkey &amp; Germany!</text>
+</svg>

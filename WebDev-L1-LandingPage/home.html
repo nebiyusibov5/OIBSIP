@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+
+    <title>LyakGo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav_container">
+        <ul class="nav_ul">
+          <li class="nav_logo_name">
+            <a href="./home.html"
+              ><img id="nav_img" src="img/Lyak go (1).png" alt=""
+            /></a>
+          </li>
+          <li class="navbar_text"><a href="./about.html">About Us</a></li>
+          <li class="navbar_text"><a href="./discount.html">Rates</a></li>
+          <li class="navbar_text"><a href="shops.html">Stores</a></li>
+          <li class="navbar_text"><a href="branches.html">Branches</a></li>
+          <li class="giris_qeydiyyat">
+            <a href=""><button id="giris">Sign In</button></a>
+            <a href=""><button id="qeydiyyat">Register</button></a>
+          </li>
+          <button id="drop_down_btn"><i class="fa-solid fa-bars"></i></button>
+        </ul>
+        <button id="darkMode_btn">
+          <i class="fa-regular fa-lightbulb"></i>
+        </button>
+        <ul class="nav_ul_hidden">
+          <li><a href="">About Us</a></li>
+          <li><a href="">Rates</a></li>
+          <li><a href="">Stores</a></li>
+          <li><a href="">Branches</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section_main">
+      <div class="section_main_div">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/slide1.svg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="img/slide2.svg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slide3.svg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- main_section end  -->
+    <!-- card_section start  -->
+    <section class="card_section">
+      <div class="card_main_div">
+        <div class="card_text_div">
+          <h1>How does LyakGo work?</h1>
+        </div>
+        <div class="cards_div">
+          <div class="card_div1">
+            <div><i class="fa-regular fa-address-card"></i></div>
+            <p class="p1">Registration</p>
+            <p class="p2">
+              First, go to the registration section, fill in the fields, and
+              sign up.
+            </p>
+          </div>
+          <i id="right1" class="fa-solid fa-caret-right"></i>
+          <div class="card_div1">
+            <div><i class="fa-regular fa-user"></i></div>
+            <p class="p1">Personal Account</p>
+            <p class="p2">
+              Log in to your personal account to get your Turkey address. Track
+              your orders.
+            </p>
+          </div>
+          <i id="right2" class="fa-solid fa-caret-right"></i>
+
+          <div class="card_div1">
+            <div><i class="fa-solid fa-cart-shopping"></i></div>
+            <p class="p1">Order Now</p>
+            <p class="p2">
+              Click the "Order Now" button and send us the link to the product.
+            </p>
+          </div>
+          <i id="right3" class="fa-solid fa-caret-right"></i>
+
+          <div class="card_div1">
+            <div><i class="fa-solid fa-location-dot"></i></div>
+            <p class="p1">Receive</p>
+            <p class="p2">
+              Once your order arrives at our Turkey office, it will be shipped.
+              You can pick it up from our office.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- card_section end  -->
+    <!-- section_discount start  -->
+    <section class="section_discount">
+      <div class="discount_main_div">
+        <div class="discount_text_div">
+          <h3>Our Rates</h3>
+          <p>
+            Attention! In accordance with devaluation in the national currency
+            of the Republic of Azerbaijan, changes may be made to our rates in
+            US dollar equivalents.
+          </p>
+        </div>
+        <div class="cards_main_div">
+          <!-- first card start  -->
+          <div class="card_container12">
+            <div class="line1">
+              <h4>STANDARD AND LIQUID</h4>
+              <p>For Baku city</p>
+            </div>
+            <div class="line2">
+              <ul>
+                <li>
+                  <span>0 - 100 g</span>
+                  <p>2.2 AZN</p>
+                </li>
+                <li>
+                  <span>101 g - 250 g</span>
+                  <p>3.38 AZN</p>
+                </li>
+                <li>
+                  <span>251 g - 500 g</span>
+                  <p>5.08 AZN</p>
+                </li>
+                <li>
+                  <span>501 g - 1 kg</span>
+                  <p>6.51 AZN</p>
+                </li>
+                <li>
+                  <span>Over 1 kg</span>
+                  <p>x 6.51 AZN</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- first card end  -->
+          <!-- second card start  -->
+          <div class="card_container12">
+            <div class="line1">
+              <h4>STANDARD AND LIQUID</h4>
+              <p>For Absheron and Sumqayit cities</p>
+            </div>
+            <div class="line2">
+              <ul>
+                <li>
+                  <span>0 - 100 g</span>
+                  <p>2.2 AZN</p>
+                </li>
+                <li>
+                  <span>101 g - 250 g</span>
+                  <p>3.38 AZN</p>
+                </li>
+                <li>
+                  <span>251 g - 500 g</span>
+                  <p>5.08 AZN</p>
+                </li>
+                <li>
+                  <span>501 g - 1 kg</span>
+                  <p>6.51 AZN</p>
+                </li>
+                <li>
+                  <span>Over 1 kg</span>
+                  <p>x 6.51 AZN</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- second card end  -->
+          <!-- third card start  -->
+          <div class="card_container3">
+            <div class="line1">
+              <h4>FOR VOLUMETRIC PRODUCTS</h4>
+            </div>
+            <div class="line2">
+              <span
+                >Parcels whose sum of three dimensions (width, length, height)
+                exceeds 1 meter are calculated as volumetric weight. Volumetric
+                weight = Width x Length x Height / 6000</span
+              >
+              <p>x 6.51 AZN</p>
+              <img
+                src="img/hecmkub2.png"
+                alt=""
+                style="width: 150px; height: 150px"
+              />
+            </div>
+          </div>
+          <!-- third card end  -->
+        </div>
+      </div>
+    </section>
+    <!-- section_discount end  -->
+
+    <!-- services section start  -->
+    <section class="services_section">
+      <div class="services_main_div">
+        <div class="text_div">
+          <h3>Our Services</h3>
+        </div>
+        <div class="main_card_div">
+          <div>
+            <i class="fa-solid fa-truck"></i>
+            <h4>"Delivery" Service from Turkey</h4>
+            <p>
+              Kango.az carries out the delivery of goods and postal packages
+              ordered online from Turkish shopping sites. Packages accepted in
+              Turkey are delivered to customers within 3-6 business days. Note
+              that standard products are shipped every business day, while
+              liquid and battery products are shipped 1 or 2 times a week.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-plane"></i>
+            <h4>Direct Delivery from Trendyol</h4>
+            <p>
+              You can order directly from Trendyol.com to your Azerbaijan
+              address by selecting over 35 Kango "PICK UP" points.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <h4>Returns (From Turkey)</h4>
+            <p>
+              We process returns to the seller store for defective, incorrect,
+              or damaged items received at our Turkey warehouse, as well as any
+              package you wish to return (the seller store's return service must
+              be active for this).
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-motorcycle"></i>
+            <h4>"Courier" Service</h4>
+            <p>
+              We also organize the delivery of your packages that have arrived
+              at the Baku warehouse to any address. This saves you time. You can
+              get information about prices in the rates section.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-cash-register"></i>
+            <h4>Top-up Balance via Emanat</h4>
+            <p>
+              You can top up your Kango.az account balance via E-manat payment
+              terminals.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-truck"></i>
+            <h4>Urgent Order</h4>
+            <p>OUR URGENT ORDER SERVICE IS CURRENTLY NOT ACTIVE.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services section end  -->
+
+    <!-- about section start  -->
+    <section class="about_section">
+      <div class="about_section_div">
+        <div class="div_img">
+          <img
+            src="img/outside-logistics-distributions-warehouse-diverse-600nw-2042952425.webp"
+            alt=""
+          />
+        </div>
+        <div class="div_text_container">
+          <h3>About Us</h3>
+          <p>
+            "Kango" LLC is a freight delivery company. We set out to become
+            Azerbaijan's fastest and most reliable courier company. Our company
+            was established to make Turkish online shopping pages more
+            accessible. Our operating principle is to deliver products to our
+            customers more conveniently and at more affordable prices that all
+            Turkish online shopping stores (Trendyol, Morhipo, Hepsiburada,
+            Koton, Zara, LC Waikiki, etc.) refuse to ship directly to
+            Azerbaijan. Our company...
+          </p>
+          <a href=""
+            ><button>Read More <i class="fa-solid fa-arrow-right"></i></button
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- about section end  -->
+
+    <section class="swiper_section">
+      <div class="swiper_main_div">
+        <div class="text_swiper">
+          <h3>Our Latest Updates</h3>
+        </div>
+        <swiper-container
+          class="mySwiper"
+          pagination="true"
+          effect="coverflow"
+          grab-cursor="true"
+          centered-slides="true"
+          slides-per-view="auto"
+          coverflow-effect-rotate="50"
+          coverflow-effect-stretch="0"
+          coverflow-effect-depth="100"
+          coverflow-effect-modifier="1"
+          coverflow-effect-slide-shadows="true"
+        >
+          <swiper-slide>
+            <img src=" https://swiperjs.com/demos/images/nature-1.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+          </swiper-slide>
+        </swiper-container>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer
+      class="my-custom-footer text-center text-lg-start bg-light text-muted"
+    >
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Follow us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="https://www.facebook.com" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.twitter.com" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.google.com" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="https://www.instagram.com" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <a href=""><img src="img/Lyak go (1).png" alt="" /></a>
+              </h6>
+              <p>LyakGo is a fast postal delivery and courier company.</p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Company</h6>
+              <p>
+                <a href="#!" class="text-reset">About Us</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Our Rates</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Stores</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Our Services</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+              <p>
+                <a href="#!" class="text-reset">FAQ</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Terms of Carriage</a>
+              </p>
+              <p>
+                <a href="" class="text-reset">Privacy Policy</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">User Agreement</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2024 LyakGo:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
+          >All Rights Reserved</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>

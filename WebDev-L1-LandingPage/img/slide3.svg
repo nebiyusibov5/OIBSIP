@@ -1,0 +1,54 @@
+<svg viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="500" fill="#F5F6F7"/>
+
+  <!-- faded turkish flag watermark -->
+  <g opacity="0.12">
+    <circle cx="900" cy="250" r="230" fill="#E30A17"/>
+    <circle cx="960" cy="250" r="185" fill="#F5F6F7"/>
+    <circle cx="980" cy="250" r="150" fill="#E30A17"/>
+    <polygon points="1040,250 1110,225 1080,270 1110,315 1040,290" fill="#F5F6F7"/>
+  </g>
+
+  <!-- title -->
+  <text x="600" y="80" font-family="Arial, sans-serif" font-size="38" font-weight="900" fill="#1FB8C4" text-anchor="middle">DISCOUNTS COME AND GO,</text>
+  <text x="600" y="125" font-family="Arial, sans-serif" font-size="38" font-weight="900" fill="#1FB8C4" text-anchor="middle">BUT OUR RATES STAY AFFORDABLE</text>
+
+  <!-- column headers -->
+  <text x="230" y="185" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#E4231C" text-anchor="middle">Weight</text>
+  <text x="230" y="212" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0E2A2D" text-anchor="middle">(Turkey)</text>
+
+  <text x="600" y="185" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#E4231C" text-anchor="middle">Regular</text>
+  <text x="600" y="212" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0E2A2D" text-anchor="middle">Product</text>
+
+  <text x="960" y="185" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#E4231C" text-anchor="middle">Liquid</text>
+  <text x="960" y="212" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0E2A2D" text-anchor="middle">Product</text>
+
+  <line x1="80" y1="230" x2="1120" y2="230" stroke="#CBD1D3" stroke-width="2"/>
+
+  <!-- rows -->
+  <g font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0E2A2D" text-anchor="middle">
+    <text x="230" y="270">0.001 kg - 0.05 kg</text>
+    <text x="600" y="270">$0.39</text>
+    <text x="960" y="270">$0.39</text>
+
+    <text x="230" y="308">0.050 kg - 0.100 kg</text>
+    <text x="600" y="308">$0.85</text>
+    <text x="960" y="308">$0.85</text>
+
+    <text x="230" y="346">0.10 kg - 0.25 kg</text>
+    <text x="600" y="346">$1.85</text>
+    <text x="960" y="346">$1.85</text>
+
+    <text x="230" y="384">0.25 kg - 0.5 kg</text>
+    <text x="600" y="384">$2.85</text>
+    <text x="960" y="384">$2.85</text>
+
+    <text x="230" y="422">0.50 kg - 0.75 kg</text>
+    <text x="600" y="422">$3.30</text>
+    <text x="960" y="422">$3.30</text>
+
+    <text x="230" y="460">0.75 kg - 1 kg</text>
+    <text x="600" y="460">$3.45</text>
+    <text x="960" y="460">$3.45</text>
+  </g>
+</svg>
