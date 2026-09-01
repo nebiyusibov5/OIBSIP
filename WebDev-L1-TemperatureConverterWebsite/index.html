@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="general_container">
+      <h1>Temperature Converter</h1>
+
+      <div class="input_group">
+        <label for="">Enter the value:</label> <br>
+        <input type="text" id="input_value" />
+      </div>
+
+      <div class="select_div">
+        <label for="">İnput unit:</label> <br>
+        <select name="" id="select_change">
+          <option class="select_option" value="C">Celsius (°C)</option>
+          <option class="select_option" value="F">Fahrenheit (°F)</option>
+          <option class="select_option" value="K">Kelvin (K)</option>
+        </select>
+      </div>
+
+      <button class="btn_change">Change</button>
+      <div id="error_message"></div>
+      <div class="result_container">
+        <h3>Result:</h3>
+        <div class="result_item" id="result_celcius">
+          Celsius: <span>-</span>
+        </div>
+        <div class="result_item" id="result_fahrenheit">
+          Fahrenheit: <span>-</span>
+        </div>
+        <div class="result_item" id="result_kelvin">Kelvin: <span>-</span></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
