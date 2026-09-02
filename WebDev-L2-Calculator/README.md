@@ -20,7 +20,7 @@ This project is a fully functional web calculator designed to perform basic math
 
 - **HTML5:** Semantic element structure and accessible button layout.
 - **CSS3:** CSS Grid, Flexbox, custom variables, and interactive hover/active button states.
-- **JavaScript (ES6+):** DOM manipulation, event listeners (`addEventListener`), mathematical evaluation logic, and state management.
+- **JavaScript (ES6+):** DOM manipulation, event listeners (`addEventListener`), mathematical evaluation logic, and state management..
 
 ## 📂 Folder Structure
 
