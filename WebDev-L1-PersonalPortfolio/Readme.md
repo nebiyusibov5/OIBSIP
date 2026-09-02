@@ -20,7 +20,7 @@ This project serves as an interactive personal showcase highlighting software en
 
 - **HTML5:** Semantic structural layout and accessibility markup.
 - **CSS3 / SCSS:** Modern styling using Flexbox, CSS Grid, media queries, and clean component architecture.
-- **JavaScript (ES6+):** Dynamic DOM manipulation, menu toggles, and interactive elements.
+- **JavaScript (ES6+):** Dynamic DOM manipulation, menu toggles, and interactive elements..
 
 ## 📂 Folder Structure
 
