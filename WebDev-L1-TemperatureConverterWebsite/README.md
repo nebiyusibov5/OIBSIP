@@ -19,7 +19,7 @@ This project provides a clean and intuitive interface for converting temperature
 
 - **HTML5:** Semantic form controls, structural elements, and accessible input types.
 - **CSS3:** Modern styling, flexbox/grid alignment, smooth transitions, and custom UI components.
-- **JavaScript (ES6+):** DOM event handling (`addEventListener`), conversion mathematical logic, and dynamic string rendering.
+- **JavaScript (ES6+):** DOM event handling (`addEventListener`), conversion mathematical logic, and dynamic string rendering..
 
 ## 📂 Folder Structure
 
