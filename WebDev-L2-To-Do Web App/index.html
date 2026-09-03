@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>To-Do Web App</title>
+  </head>
+  <body>
+    <div class="to_do_app_container">
+      <div class="div_text">
+        <h1><i class="fa-solid fa-bars-progress"></i>Task Manager</h1>
+        <p>Manage your tasks with ease.</p>
+      </div>
+      <div class="input_div">
+        <input id="input_value" type="text" placeholder="Enter a new task..." />
+        <button class="add_btn">+ Add Task</button>
+      </div>
+      <div class="box_div">
+        <div class="div_left">
+          <div>
+            <p>Those on the waiting list</p>
+            <p class="pending">0 pending</p>
+          </div>
+        </div>
+        <div class="div_right">
+          <div>
+            <p>Unfinished items</p>
+            <p class="completed">0 completed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
